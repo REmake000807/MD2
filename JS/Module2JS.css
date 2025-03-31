@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+figure {
+    border: 2px solid #ddd;
+    padding: 10px;
+    background: white;
+    cursor: pointer;
+}
+
+figure img {
+    width: 200px;
+    height: auto;
+}
+
+figure:focus, figure:hover {
+    border-color: #074f57;
+    outline: none;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+
